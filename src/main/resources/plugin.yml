@@ -1,0 +1,9 @@
+name: MinecraftDagger
+version: ${project.version}
+main: dev.wesleysmith.minecraftdagger.MinecraftDaggerPlugin
+api-version: 1.16
+commands:
+  logintime:
+    description: See your login time and duration online
+  suicide:
+    description: Take your own life, incrementing a counter
